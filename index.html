@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Тайський Бокс (Muay Thai)</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: linear-gradient(90deg, #dc2626, #7f1d1d);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #111827;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #f87171;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: url('https://images.unsplash.com/photo-1549719386-74dfcbf7dbed') no-repeat center/cover;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            background: rgba(0,0,0,0.6);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #1f2937;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 250px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #111827;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            background: #dc2626;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #b91c1c;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Тайський Бокс (Muay Thai)</h1>
+    <p>Мистецтво восьми кінцівок</p>
+</header>
+
+<nav>
+    <a href="#about">Про спорт</a>
+    <a href="#technique">Техніки</a>
+    <a href="#benefits">Переваги</a>
+</nav>
+
+<div class="hero">
+    <h1>Сила. Швидкість. Дисципліна.</h1>
+</div>
+
+<section id="about">
+    <h2>🥊 Що таке Muay Thai?</h2>
+    <p>
+        Тайський бокс — це бойове мистецтво з Таїланду, яке використовує удари руками, ногами,
+        ліктями та колінами. Його називають "мистецтвом восьми кінцівок".
+    </p>
+</section>
+
+<section id="technique">
+    <h2>⚡ Основні техніки</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Удари руками</h3>
+            <p>Прямі, бокові та аперкоти як у класичному боксі.</p>
+        </div>
+        <div class="card">
+            <h3>Удари ногами</h3>
+            <p>Потужні кік-удари по корпусу і ногах.</p>
+        </div>
+        <div class="card">
+            <h3>Лікті та коліна</h3>
+            <p>Найнебезпечніша зброя у ближньому бою.</p>
+        </div>
+    </div>
+</section>
+
+<section id="benefits">
+    <h2>💪 Чому варто займатись?</h2>
+    <ul>
+        <li>Покращує фізичну форму</li>
+        <li>Розвиває дисципліну</li>
+        <li>Вчить самозахисту</li>
+        <li>Знімає стрес</li>
+    </ul>
+    <br>
+    <button onclick="alert('Muay Thai — це стиль життя!')">Дізнатись більше</button>
+</section>
+
+<footer>
+    <p>© 2026 Muay Thai Україна</p>
+</footer>
+
+</body>
+</html><section id="gallery">
+    <h2>📸 Галерея</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b" width="100%">
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d" width="100%">
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e" width="100%">
+        </div>
+    </div>
+</section><section id="fighters">
+    <h2>🏆 Відомі бійці</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Buakaw Banchamek</h3>
+            <p>Легенда Muay Thai, відомий своєю швидкістю та нокаутами.</p>
+        </div>
+        <div class="card">
+            <h3>Saenchai</h3>
+            <p>Один із найтехнічніших бійців в історії тайського боксу.</p>
+        </div>
+        <div class="card">
+            <h3>Tony Jaa</h3>
+            <p>Актор і боєць, який популяризував Muay Thai у світі.</p>
+        </div>
+    </div>
+</section><button onclick="window.scrollTo({top:0, behavior:'smooth'})" 
+style="position:fixed; bottom:20px; right:20px;">
+⬆
+</button>
